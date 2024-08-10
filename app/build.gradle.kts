@@ -58,6 +58,7 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.livedata)
     implementation(libs.androidx.lifecycle)
+    implementation(libs.androidx.lifecycle.runtime)
     implementation(libs.androidx.lifecycle.viewmodel)
 
     implementation(libs.coroutines.std.lib)

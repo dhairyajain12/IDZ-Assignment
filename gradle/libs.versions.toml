@@ -30,6 +30,7 @@ coroutines-std-lib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk
 androidx-lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata-core-ktx", version.ref = "livedata" }
 androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "livedata" }
 androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "livedata" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "livedata" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }

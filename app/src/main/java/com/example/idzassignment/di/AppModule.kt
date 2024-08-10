@@ -1,5 +1,6 @@
 package com.example.idzassignment.di
 
+import com.example.idzassignment.api.BackendServices
 import com.example.idzassignment.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
@@ -15,9 +16,10 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun retrofitBuilder(): Retrofit =
+    fun retrofitBuilder(): BackendServices =
         Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+            .create(BackendServices::class.java)
 }
